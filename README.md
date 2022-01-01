@@ -1,4 +1,4 @@
-# Pytest pyton example with automated testing
+# Pytest python example with automated testing
 
 
 ## Setup (local)
