@@ -11,6 +11,11 @@ python3 -m venv venv
 pip install -r requirements.txt
 ```
 
+Copy api key (this is an *example* , it's not a real api key-you can use any value).
+```
+cp .env.example .env
+```
+
 ## Run tests locally
 
 ```
