@@ -1,5 +1,13 @@
 # Pytest python example with automated testing
 
+This is a minimal viable example of pytest with an automated
+run of tests for every push/merge into `main` and auto a
+`schedule` to run the tests every day.
+
+It also shows an example of how to handle sensitive informatino (such as api keys) in your pipeline using secrets.
+
+## How does this work?
+
 - At every push and/or merge to `main` branch `pytest` is used to run the tests which are written in the `./tests` directory of this repo
 - The exact same tests may be ran locally (see "Run tests locally")
 - Automated testing with a pipline and secrets (using Github actions- but this process is the same for any provider Gitlab, bitbucket etc) see https://github.com/KarmaComputing/pytest-example-automated-testing/actions
