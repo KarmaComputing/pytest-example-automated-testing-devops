@@ -2,6 +2,7 @@
 
 - At every push and/or merge to `main` branch `pytest` is used to run the tests which are written in the `./tests` directory of this repo
 - The exact same tests may be ran locally (see "Run tests locally")
+- Automated testing with a pipline and secrets (using Github actions- but this process is the same for any provider Gitlab, bitbucket etc) see https://github.com/KarmaComputing/pytest-example-automated-testing/actions
 
 ## Setup (local)
 
