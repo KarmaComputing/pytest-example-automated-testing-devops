@@ -1,5 +1,7 @@
 # Pytest python example with automated testing
 
+- At every push and/or merge to `main` branch `pytest` is used to run the tests which are written in the `./tests` directory of this repo
+- The exact same tests may be ran locally (see "Run tests locally")
 
 ## Setup (local)
 
@@ -9,7 +11,7 @@ python3 -m venv venv
 pip install -r requirements.txt
 ```
 
-## Run tests
+## Run tests locally
 
 ```
 . venv/bin/activate
