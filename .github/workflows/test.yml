@@ -8,6 +8,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  schedule:
+    - '30 9 * * *' # 09:30am See https://crontab.guru/#30_9_*_*_*
 
 jobs:
   Test:
